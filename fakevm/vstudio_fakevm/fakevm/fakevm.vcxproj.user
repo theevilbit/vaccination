@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebugDeployment>True</DebugDeployment>
+    <DbgengRemoteMachineName>x86</DbgengRemoteMachineName>
+    <DbgengKernelMachineName>x86</DbgengKernelMachineName>
+    <TestCertificate>CN="WDKTestCert csaby,130890535146694165" | C992B908C81355153A62D0DDAD628F28B497C4E2</TestCertificate>
+    <RemoveDriver>True</RemoveDriver>
+    <InstallMode>HardwareId</InstallMode>
+    <HardwareIdString>Root\fakevm</HardwareIdString>
+    <CommandLine />
+    <ScriptPath>C:\Program Files (x86)\Windows Kits\10\Testing\Tests\Utilities\DefaultDriverPackageInstallationTask.dll</ScriptPath>
+    <DeployFiles />
+    <ScriptName>Microsoft.DriverKit.DefaultDriverPackageInstallationClass.PerformDefaultDriverPackageInstallation</ScriptName>
+    <ScriptDeviceQuery />
+  </PropertyGroup>
+</Project>
