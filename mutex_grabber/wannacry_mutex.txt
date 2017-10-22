@@ -1,0 +1,2 @@
+MsWinZonesCacheCounterMutexA
+Global\MsWinZonesCacheCounterMutexA0
